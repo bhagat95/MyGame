@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         ivverdict.setVisibility(View.INVISIBLE);
         tvscore.setText(score+"");
 
-
+        // click events
         bsubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
